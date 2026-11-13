@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "release": "2026-10-22",
+ "years": [
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "communes": 33326,
+ "sales": {
+  "2022": 1058021,
+  "2023": 839518,
+  "2024": 762447,
+  "2025": 869870
+ },
+ "sources": {
+  "2022": {
+   "url": "https://static.data.gouv.fr/resources/demandes-de-valeurs-foncieres-geolocalisees/20261020-114218/full-2022.csv.gz",
+   "sha256": "70f90b5c1d5f1e26c60b49c653214d9afdfec9cde8d695a51e7e074e2a71e008",
+   "bytes": 141270325
+  },
+  "2023": {
+   "url": "https://static.data.gouv.fr/resources/demandes-de-valeurs-foncieres-geolocalisees/20261020-114336/full-2023.csv.gz",
+   "sha256": "272480643904c8c908e16181ab3161944c3bd9ee09f1a9bff46c001c893758cb",
+   "bytes": 117378804
+  },
+  "2024": {
+   "url": "https://static.data.gouv.fr/resources/demandes-de-valeurs-foncieres-geolocalisees/20261020-114532/full-2024.csv.gz",
+   "sha256": "061a8adf779b29a799e7a753d30fe7bbc3ca393727a0ee128edc5015b5f1d52f",
+   "bytes": 107356846
+  },
+  "2025": {
+   "url": "https://static.data.gouv.fr/resources/demandes-de-valeurs-foncieres-geolocalisees/20261020-114721/full-2025.csv.gz",
+   "sha256": "85854e21f21151e94748e6bf11657f801951854179f381b7f6abfeb9d80040a9",
+   "bytes": 116267867
+  }
+ },
+ "generated": "2026-11-13T16:33:18.945Z",
+ "fields": [
+  "type (0 appartement, 1 maison, 2 mixte, 3 activite, 4 dependance)",
+  "price €",
+  "surface m²",
+  "date",
+  "lon",
+  "lat",
+  "rooms (one-dwelling sales)",
+  "land m² (one-house sales)"
+ ]
+}
